@@ -28,9 +28,9 @@
 
 | Membre   | Rôle       | Missions |
 | -------- | ---------- | -------- |
-| membre 1 | PO         | -        |
-| membre 2 | SM         | -        |
-| membre 3 | Technicien | -        |
+| Anthounes NEZI| PO         | -        |
+| Brendan BORNE | SM         | -        |
+| Lloyd MORLET | Technicien | -        |
 | membre 4 | Technicien | -        |
 
 **Sprint 2**
