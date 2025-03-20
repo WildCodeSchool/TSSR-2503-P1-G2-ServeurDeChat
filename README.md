@@ -37,9 +37,9 @@ Tâche secondaire
 
 | Membre   | Rôle       | Missions |
 | -------- | ---------- | -------- |
-| Anthounes NEZI| PO    | Machine  client, structure USER_GUIDE.md |
-| Brendan BORNE | SM    | Machine client, structure README.md  |
-| Lloyd MORLET  | Sbire | Machine serveur, structure INSTALL.md |
+| Anthounes NEZI| PO    | Machine  client WIN01, structure USER_GUIDE.md |
+| Brendan BORNE | SM    | Machine client UBU02, structure README.md, renfort machine serveur SRVLX01 |
+| Lloyd MORLET  | Sbire | Machine serveur SRVLX01, structure INSTALL.md |
 
 ### Sprint 2
 
@@ -65,12 +65,15 @@ Présentation de Rocket.Chat
 # 🧗 Difficultés rencontrées
 <span id="difficultes-rencontrees"></span>
 
-
+1. Installation de Rocket.Chat sur Debian
+  * Procédure longue et difficile
+  * Installation des dépendances à la main
+  * Configuration à la main   
 
 # 💡 Solutions trouvées
 <span id="solutions-trouvees"></span>
 
-
+1. Passer par le gestionnaire de package snap
 
 # 🚀 Améliorations possibles
 <span id="ameliorations-possibles"></span>
