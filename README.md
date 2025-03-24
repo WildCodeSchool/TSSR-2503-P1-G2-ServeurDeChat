@@ -1,5 +1,9 @@
 ![logo de Rocket.Chat](Ressources/rocketchat.jpg)
 
+Cette documentation a pour objectif de présenter le projet 1 réalisé au sein de la Wild Code School par Anthounes NEZI, Brendan BORNE et Lloyd MORLET.
+
+Ce projet a pour but de mettre en place un réseau constitué de 1 machine virtuelle serveur et 2 machines virtuelles client. 
+
 ## Sommaire 
 
 - [🎯 Présentation du projet](#presentation-du-projet)
@@ -13,19 +17,27 @@
 # 🎯 Présentation du projet
 <span id="presentation-du-projet"></span>
 
-### Sujet choisi
-
-Sujet numéro 8 - Serveur de chat
-
 ### Présentation
 
-Mise en place d'un serveur de messagerie instantanée.
+**Sujet choisi :** Sujet numéro 8 serveur de chat
+
+Tâche principale :
+1. Mise en place d’un serveur de messagerie instantanée (chat)
+2. Utilisable entre 2 clients
+3. Utilisation de **Rocket.Chat**
+- **Serveur** : Debian 12
+- **Clients** : Windows 10/11 Pro ou Ubuntu 24.04 LTS
+
+
 
 ### Objectifs finaux
 
 Tâche principale 
 
-Tâche secondaire
+Tâche secondaire : 
+ - Personnalisation des emojis et des réactions selon les conversations
+
+
 
 # 📜 Introduction
 <span id="introduction"></span>
@@ -45,16 +57,40 @@ Tâche secondaire
 
 | Membre   | Rôle         | Missions |
 | -------- | ----------   | -------- |
-| Anthounes NEZI  | SM    | -        |
-| Brendan BORNE   | Sbire | -        |
-| Lloud MORLET    | PO    | -        |
+| Anthounes NEZI  | SM    | Rédaction de USERGUIDE.md, configuration du serveur et des emojis |
+| Brendan BORNE   | Sbire | Rédaction de README.md, configuration du serveur et des emojis |
+| Lloud MORLET    | PO    | Rédaction de INSTALL.md, configuration du serveur et des emojis |
 
 # ⚙️ Choix techniques
 <span id="choix-techniques"></span>
 
 ### Machines
 
-Présentation des specs serveur + client
+Configuration de machine virtuelle client 1
+* **Système d'exploitation** : Windows 10
+* **Nom** : WIN01 
+* **Compte utilisateur** : wilder
+	* **Mot de passe** : Azerty1*
+* **Adresse IP** : 172.16.10.10 avec le masque 255.255.255.0 
+* **Langue** : Fr
+
+
+Configuration de machine virtuelle client 2:
+* **Nom** : UBU02
+* **Compte utilisateur** :
+  * wilder
+  * **Mot de passe** : Azerty1*
+* **Adresse IP** : 172.16.10.20 avec le masque 255.255.255.0
+* **Langue** : Fr
+
+Configuration de machine virtuelle serveur:
+* **Nom** : SRVLX01
+* **Comptes utilisateur** :
+	* root
+  * wilder
+  * **Mot de passe** : Azerty1*
+* **Adresse IP** : 172.16.10.5 avec le masque 255.255.255.0
+* **Langue** : US
 
 ### Logiciel
 
