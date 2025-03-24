@@ -43,12 +43,11 @@ Tâche secondaire
 
 ### Sprint 2
 
-| Membre   | Rôle       | Missions |
-| -------- | ---------- | -------- |
-| membre 1 | Technicien | -        |
-| membre 2 | Technicien | -        |
-| membre 3 | PO         | -        |
-| membre 4 | SM         | -        |
+| Membre   | Rôle         | Missions |
+| -------- | ----------   | -------- |
+| Anthounes NEZI  | SM    | -        |
+| Brendan BORNE   | Sbire | -        |
+| Lloud MORLET    | PO    | -        |
 
 # ⚙️ Choix techniques
 <span id="choix-techniques"></span>
@@ -77,3 +76,5 @@ Présentation de Rocket.Chat
 
 # 🚀 Améliorations possibles
 <span id="ameliorations-possibles"></span>
+
+1. Utiliser un autre système d'installation pour le serveur (Docker par exemple)
