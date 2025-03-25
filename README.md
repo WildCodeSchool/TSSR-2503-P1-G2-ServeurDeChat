@@ -1,8 +1,16 @@
+# Serveur Rocket.Chat 
 ![logo de Rocket.Chat](Ressources/rocketchat.jpg)
 
 Cette documentation a pour objectif de présenter le projet 1 réalisé au sein de la Wild Code School par Anthounes NEZI, Brendan BORNE et Lloyd MORLET.
 
-Ce projet a pour but de mettre en place un réseau constitué de 1 machine virtuelle serveur et 2 machines virtuelles client. 
+Ce projet a pour but de mobiliser les compétences suivantes :
+* Mise en place de serveur
+* Installation et configuration de service
+* Réalisation de projet en équipe
+* Documentation des étapes
+* Démonstration de réalisation finale
+
+---
 
 ## Sommaire 
 
@@ -14,35 +22,35 @@ Ce projet a pour but de mettre en place un réseau constitué de 1 machine virtu
 - [💡 Solutions trouvées](#solutions-trouvees)
 - [🚀 Améliorations possibles](#ameliorations-possibles)
 
-# 🎯 Présentation du projet
+---
+
+## 🎯 Présentation du projet
 <span id="presentation-du-projet"></span>
 
 ### Présentation
 
-**Sujet choisi :** Sujet numéro 8 serveur de chat
+Le sujet qui a été choisir pour ce projet est le sujet numéro 8. Il s'agit pour ce projet d'implémenter un serveur de chat.
 
-Tâche principale :
-1. Mise en place d’un serveur de messagerie instantanée (chat)
-2. Utilisable entre 2 clients
-3. Utilisation de **Rocket.Chat**
-- **Serveur** : Debian 12
-- **Clients** : Windows 10/11 Pro ou Ubuntu 24.04 LTS
-
-
+Pour cela, une machine serveur est créée, afin d’accueillir le service de messagerie Rocket.Chat. Deux machines clients pourront accéder au service de messagerie en s'y connectant grâce à un navigateur.
 
 ### Objectifs finaux
 
-Tâche principale 
+Ce projet est divisé en deux objectifs, un objectif principal et un objectif secondaire.
 
-Tâche secondaire : 
- - Personnalisation des emojis et des réactions selon les conversations
+L'objectif principal est la mise en place du serveur de messagerie instantanée. Pour cela, il doit être effectivement utilisable entre 2 clients. Le serveur doit être installé et configuré sur une machine Debian 12. Les clients sont une machine sous Windows, et une machine sous Ubuntu. Les détails techniques concernant les machines sont donnés dans la partie _Choix techniques_ de ce document.
 
+La tâche secondaire est de personnaliser les emojis et les réactions disponibles en fonction des conversations du serveur de chat.
 
+---
 
-# 📜 Introduction
+## 📜 Introduction
 <span id="introduction"></span>
 
-# 👥 Membres du groupe par sprint
+* Utilisation de la méthodologie Scrum
+* Rôles tournant
+* Répartition des tâches
+
+## 👥 Membres du groupe par sprint
 <span id="membres-du-groupe-par-sprint"></span>
 
 ### Sprint 1
@@ -61,7 +69,7 @@ Tâche secondaire :
 | Brendan BORNE   | Sbire | Rédaction de README.md, configuration du serveur et des emojis |
 | Lloud MORLET    | PO    | Rédaction de INSTALL.md, configuration du serveur et des emojis |
 
-# ⚙️ Choix techniques
+## ⚙️ Choix techniques
 <span id="choix-techniques"></span>
 
 ### Machines
@@ -94,7 +102,7 @@ Configuration de machine virtuelle serveur:
 
 ### Logiciel
 
-Présentation de Rocket.Chat
+Rocket.Chat est une plateforme de communication Open-Source permettant d'implémenter des canaux de messagerie instantanée textuelle, audio, vidéo, ainsi que le partage de fichiers. Cette plateforme est très personnalisable et configurable, permettant d'ajouter de nombreux modules liés à la sécurité des données, la modération des canaux de discussion et de services tiers (GitHub, Google Drive, etc...).
 
 
 # 🧗 Difficultés rencontrées
@@ -105,10 +113,15 @@ Présentation de Rocket.Chat
   * Installation des dépendances à la main
   * Configuration à la main   
 
+1. Personnalisation des canaux de discussion non supportée nativement
+
 # 💡 Solutions trouvées
 <span id="solutions-trouvees"></span>
 
 1. Passer par le gestionnaire de package snap
+
+2. Installer un module ?
+	1. -> pas encore trouvé
 
 # 🚀 Améliorations possibles
 <span id="ameliorations-possibles"></span>
