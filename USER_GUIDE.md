@@ -13,7 +13,9 @@ Ce document présente le mode d'accès au serveur de chat, ainsi que ses princip
 
 Administrateur et clients peuvent se connecter à l'application de chat en se connectant à l'adresse web http://172.16.10.5:3000 depuis leur navigateur favori.
 
-# 2. Client
+Pour que le service de chat soit disponible, il est nécessaire que la machine serveur soit en marche.
+
+# 2. Guide utilisateur
 <span id="utilisation-client"></span>
 
 ## Connexion
@@ -26,7 +28,7 @@ Vous pouvez y entrer votre identifiant ou votre adresse e-mail ainsi que votre m
 
 ## Salons
 
-Une fois connecté, vous êtes renvoyés sur la page d'acceuil de votre espace de chat :
+Une fois connecté, vous êtes renvoyé sur la page d’accueil de votre espace de chat :
 
 ![Channels](Ressources/user_guide_imgs/client_welcome_screen.png)
 
@@ -36,7 +38,7 @@ Si vous le souhaitez, vous pouvez également ajouter votre propre salon de chat 
 
 ![Ajout de salon client](Ressources/user_guide_imgs/admin_channel_creation.png)
 
-Entrez-y le nom que vous souhaitez donner à votre salon, le sujet du salon, ainsi que les autres membres que vous souhaitez inviter à y participer. Vous avez la possibilité de créer un salon public ou privé. Sur un salon public, tout le monde pourra participer. Sur un salon privé, seul les utilisateurs que vous aurez invité pourront chatter avec vous.
+Entrez-y le nom que vous souhaitez donner à votre salon, le sujet du salon, ainsi que les autres membres que vous souhaitez inviter à y participer. Vous avez la possibilité de créer un salon public ou privé. Sur un salon public, tout le monde pourra participer. Sur un salon privé, seuls les utilisateurs que vous aurez invités pourront chatter avec vous.
 
 Lorsque votre salon est prêt, il ne vous reste plus qu'à cliquer sur Créer.
 
@@ -48,7 +50,7 @@ Lorsque vous rejoignez un salon existant, vous arrivez sur la fenêtre de chat :
 
 C'est ici que vous pouvez discuter avec les autres utilisateurs. Ici, vous pouvez envoyer du texte, des emojis, réagir aux messages des autres, et même envoyer des pièces jointes. 
 
-# 3. Administrateur
+# 3. Guide administrateur
 <span id="utilisation-admin"></span>
 
 ## Connexion
@@ -77,7 +79,7 @@ Vous verrez alors apparaître une fenêtre de création d'utilisateur :
 
 ![Ajout utilisateur](Ressources/user_guide_imgs/admin_add_user.png)
 
-Vous devez y entrer l'adresse e-mail du nouvel utilisateur, son Nom, son Nom d'utilisateur. Vous avez le choix de générer un premier mot de passe aléatoirement, ou de le définir vous-même. Lorsque vous êtes prêt, cliquez sur **Ajouter un utilisateur** pour valider l'opération.
+Vous devez y entrer l'adresse e-mail du nouvel utilisateur, son nom, et son nom d'utilisateur. Vous avez le choix de générer un premier mot de passe aléatoirement, ou de le définir vous-même. Lorsque vous êtes prêt, cliquez sur **Ajouter un utilisateur** pour valider l'opération.
 
 Il est également possible de supprimer un utilisateur existant depuis la liste des utilisateurs :
 
@@ -91,7 +93,7 @@ Depuis votre écran d'accueil, cliquez sur **Créer un channel**. Vous verrez al
 
 ![Ajout de salon admin](Ressources/user_guide_imgs/admin_channel_creation.png)
 
-Entrez-y le nom que vous souhaitez donner à votre salon, le sujet du salon, ainsi que les autres membres que vous souhaitez inviter à y participer. Vous avez la possibilité de créer un salon public ou privé. Sur un salon public, tout le monde pourra participer. Sur un salon privé, seul les utilisateurs que vous aurez invité pourront participer.
+Entrez-y le nom que vous souhaitez donner à votre salon, le sujet du salon, ainsi que les autres membres que vous souhaitez inviter à y participer. Vous avez la possibilité de créer un salon public ou privé. Sur un salon public, tout le monde pourra participer. Sur un salon privé, seul les utilisateurs que vous aurez invités pourront participer.
 
 ## Ajouter des emojis personnalisés
 
@@ -107,7 +109,7 @@ Vous verrez alors apparaître une une fenêtre d'ajout d'emoji :
 
 ![Ajout emoji](Ressources/user_guide_imgs/admin_add_emoji.png)
 
-Donnez un Nom et un Alias à votre nouvel emoji, et uploadez sur le serveur l'image de base qui servira pour sa création. Lorsque vous êtes prêt, cliquez sur Enregistrer. Votre nouvel emoji est prêt.
+Donnez un nom et un alias à votre nouvel emoji, et uploadez sur le serveur l'image de base qui servira pour sa création. Lorsque vous êtes prêt, cliquez sur Enregistrer. Votre nouvel emoji est prêt.
 
 # 4. FAQ
 <span id="faq"></span>

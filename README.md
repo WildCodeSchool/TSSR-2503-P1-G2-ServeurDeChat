@@ -31,7 +31,7 @@ Les guides d'installation et d'utilisation sont disponibles respectivement dans 
 
 ### Présentation
 
-Le sujet qui a été choisir pour ce projet est le sujet numéro 8. Il s'agit pour ce projet d'implémenter un serveur de chat.
+Le sujet qui a été choisi pour ce projet est le sujet numéro 8. Il s'agit pour ce projet d'implémenter un serveur de chat.
 
 Pour cela, une machine serveur est créée, afin d’accueillir le service de messagerie Rocket.Chat. Deux machines clients pourront accéder au service de messagerie en s'y connectant grâce à un navigateur.
 
@@ -59,26 +59,26 @@ Les tableaux suivants résument la répartition des rôles par sprint, ainsi que
 
 ### Sprint 1
 
-| Membre         | Rôle  | Missions                                                                   |
-| -------------- | ----- | -------------------------------------------------------------------------- |
-| Anthounes NEZI | PO    | Machine  client WIN01, structure USER_GUIDE.md                             |
-| Brendan BORNE  | SM    | Machine client UBU02, structure README.md, renfort machine serveur SRVLX01 |
-| Lloyd MORLET   | Sbire | Machine serveur SRVLX01, structure INSTALL.md                              |
+| Membre         | Rôle          | Missions                                                                   |
+| -------------- | ------------- | -------------------------------------------------------------------------- |
+| Anthounes NEZI | Product Owner | Machine  client WIN01, structure USER_GUIDE.md                             |
+| Brendan BORNE  | Scrum Master  | Machine client UBU02, structure README.md, renfort machine serveur SRVLX01 |
+| Lloyd MORLET   | Technicien    | Machine serveur SRVLX01, structure INSTALL.md                              |
 
 ### Sprint 2
 
-| Membre   | Rôle         | Missions |
-| -------- | ----------   | -------- |
-| Anthounes NEZI  | SM    | Rédaction de USERGUIDE.md, configuration du serveur et des emojis |
-| Brendan BORNE   | Sbire | Rédaction de README.md, configuration du serveur et des emojis |
-| Lloud MORLET    | PO    | Rédaction de INSTALL.md, configuration du serveur et des emojis |
+| Membre         | Rôle          | Missions                                                                        |
+| -------------- | ------------- | ------------------------------------------------------------------------------- |
+| Anthounes NEZI | Scrum Master  | Rédaction des questions de la FAQ                                               |
+| Brendan BORNE  | Technicien    | Rédaction de README.md et USER_GUIDE.md, configuration du serveur et des emojis |
+| Lloud MORLET   | Product Owner | Rédaction de INSTALL.md, configuration du serveur et des emojis                 |
 
 ## ⚙️ Choix techniques
 <span id="choix-techniques"></span>
 
 L'adresse du réseau configuré est **172.16.10**. Le masque de sous-réseau est **255.255.255.0**. 
 
-Chacune des deux machines client a un système d'exploitation différent. Cela permet de vérifier la compatibilité du serveur de chat sur un plus grand ensemble de machines. Sur chacune de ces machines, il y a au moins un compte wilder. Pour la machine serveur, il existe également un compte root. Tous les comptes partagent le même de mot de passe.
+Chacune des deux machines client a un système d'exploitation différent. Cela permet de vérifier la compatibilité du serveur de chat sur un plus grand ensemble de machines. Sur chacune de ces machines, il y a au moins un compte wilder. Pour la machine serveur, il existe également un compte root. 
 
 Les caractéristiques de chaque machine sont résumées dans la section ci-dessous.
 
@@ -156,7 +156,7 @@ Bien que le serveur Rocket.Chat soit actuellement fonctionnel, des pistes d'amé
 
 ### Sécurité et maintien
 
-Le passage par le gestionnaire de paquets **snap** n'est pas optimal en matière de sécurité et mises à jours. Même s'il permet d'installer rapidement et facilement le service de serveur Rocket.Chat, cette installation est surtout destinée à de petites implémentations et pour des tests de développement. Il serait possible d'améliorer l'installation de Rocket.Chat en passant par **Docker** ou **Kubernetes**. 
+Le passage par le gestionnaire de paquets **snap** n'est pas optimal en matière de sécurité et mise à jour. Même s'il permet d'installer rapidement et facilement le service de serveur Rocket.Chat, cette installation est surtout destinée à de petites implémentations et pour des tests de développement. Il serait possible d'améliorer l'installation de Rocket.Chat en passant par **Docker** ou **Kubernetes**. 
 
 ### Personnalisation du serveur
 
