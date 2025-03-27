@@ -1,17 +1,6 @@
 # Serveur Rocket.Chat 
 ![logo de Rocket.Chat](Ressources/rocketchat.jpg)
 
-Cette documentation a pour objectif de présenter le projet 1 réalisé au sein de la Wild Code School par Anthounes NEZI, Brendan BORNE et Lloyd MORLET.
-
-Ce projet a pour but de mobiliser les compétences suivantes :
-* Mise en place de serveur
-* Installation et configuration de service
-* Réalisation de projet en équipe
-* Documentation des étapes
-* Démonstration de réalisation finale
-
-Les guides d'installation et d'utilisation sont disponibles respectivement dans les fichiers **INSTALL.md** et **USER_GUIDE.md**. 
-
 ---
 
 ## Sommaire 
@@ -48,7 +37,16 @@ La tâche secondaire est de personnaliser les emojis et les réactions disponibl
 ## 📜 Introduction
 <span id="introduction"></span>
 
-Cette partie de la documentation présente la gestion du projet jusqu'à réalisation, ainsi que les choix techniques effectués, les difficultés rencontrées, les solutions qui y ont été trouvées et les pistes d'améliorations possibles pour le serveur de chat.
+Ce projet est le premier projet réalisé au sein de la Wild Code School par Anthounes NEZI, Brendan BORNE et Lloyd MORLET.
+
+Ce projet a pour but de mobiliser les compétences suivantes :
+* Mise en place de serveur
+* Installation et configuration de service
+* Réalisation de projet en équipe
+* Documentation des étapes
+* Démonstration de réalisation finale
+
+Les guides d'installation et d'utilisation sont disponibles respectivement dans les fichiers **INSTALL.md** et **USER_GUIDE.md**. 
 
 ## 👥 Membres du groupe par sprint
 <span id="membres-du-groupe-par-sprint"></span>
@@ -114,6 +112,8 @@ Les caractéristiques de chaque machine sont résumées dans la section ci-desso
 ### Logiciel
 
 Rocket.Chat est une plateforme de communication Open-Source permettant d'implémenter des canaux de messagerie instantanée textuelle, audio, vidéo, ainsi que le partage de fichiers. Cette plateforme est très personnalisable et configurable, permettant d'ajouter de nombreux modules liés à la sécurité des données, la modération des canaux de discussion et de services tiers (GitHub, Google Drive, etc...).
+
+La version de Rocket.Chat qui a été installée est la version **7.4.1**. Vous pouvez le télécharger via [ce lien](https://docs.rocket.chat/docs/deploy-with-snaps). La documentation de Rocket.Chat est disponible [ici](https://docs.rocket.chat/).
 
 ##  🧗 Difficultés rencontrées
 <span id="difficultes-rencontrees"></span>
