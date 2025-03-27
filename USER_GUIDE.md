@@ -114,5 +114,27 @@ Donnez un nom et un alias à votre nouvel emoji, et uploadez sur le serveur l'im
 # 4. FAQ
 <span id="faq"></span>
 
-1. Tous les utilisateurs peuvent-ils se connecter sur tous les salons ?
-2. Tous les utilisateurs peuvent-ils ajouter des emojis ?
+**Rocket.Chat est-il gratuit ?** 
+ 
+Rocket.Chat est un logiciel Open Source proposant plusieurs gammes de prix. Pour une petite implémentation comme celle-ci, il est gratuit, mais il existe des options payantes pour personnaliser et gérer plus finement son serveur. 
+
+**Peut-on personnaliser l'interface ?** 
+
+Il est possible de personnaliser les couleurs de l'interface en modifiant le CSS de Rocket.Chat, ou en créant des scripts personnalisés en JavaScript. Certains plans Premium proposent également plus de personnalisation. 
+
+**Peut-on passer d'un espace de travail à l'autre dans Rocket.Chat ?**
+
+Oui. Il est possible d'avoir plusieurs espaces de travail différents au sein d'un même serveur, ou de se connecter à un serveur différent. 
+
+**Peut-on accéder à son espace de travail via un appareil mobile ?** 
+
+En théorie, oui. Mais cette implémentation ne permet que de se connecter via l'une des deux machines virtuelles client qui ont été créées. 
+
+**Peut-on créer un espace de travail supplémentaire avec le même cloud ?**
+Oui. Il est possible d'avoir plusieurs espaces de travail sur le même cloud. 
+
+**Tous les utilisateurs peuvent-ils se connecter sur tous les salons ?**
+
+Tout le monde peut se connecter aux salons publiques du serveur. Certains salons sont privés, et seuls les utilisateurs invités peuvent y participer. C'est au créateur du salon de choisir si son salon sera public ou privé. 
+
+
