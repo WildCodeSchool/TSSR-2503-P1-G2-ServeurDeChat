@@ -39,7 +39,7 @@ le serveur demande la création d'un compte administrateur et le paramétrage in
 
 Renseigner les information du compte administrateur.
 
-(screen1)
+![admin_config](Ressources/install_imgs/Install_admin_config.png)
 
 - Nom complet : indiquer ici votre nom complet d'administrateur
 - Nom utilisateur : indiquer le nom qui sera afficher sur le serveur de chat
@@ -50,7 +50,7 @@ Renseigner les information du compte administrateur.
 
 Renseigner les informations de votre organisation qui va utiliser le serveur Rocket.chat
 
-(sreen2)
+![orga_config](Ressources/install_imgs/install_orga_config.png)
 
 - Nom de l'organisation : indiquer le nom de votre organisation
 - Secteur de l'organisation : indiquer le secteur lié a votre organisation 
@@ -62,9 +62,11 @@ Renseigner les informations de votre organisation qui va utiliser le serveur Roc
 Un mail de confirmation viens d’être envoyer sur l'adresse mail renseigner à la 1ere etape.
 Dans ce mail vous trouverez un code de sécurité à utiliser sur la page pour valider
 
-(screen4)
+![security_check](Ressources/install_imgs/install_security_check.png)
 
 Vous voilà connectez sur votre serveur Rocket.chat en tant que Administrateur.
+
+![admin_dashboard](Ressources/install_imgs/install_admin_dashboard.png)
 
 Pour commencer a personnaliser votre espace de travail, ajouter des utilisateurs, créer de nouveaux canaux, et gérer l'ensemble de votre serveur, référez vous à la documentation [USER_GUIDE.md](https://github.com/WildCodeSchool/TSSR-2503-P1-G2-ServeurDeChat/blob/c5851948e9ee321d73bdbf4ff8a145df496df95e/USER_GUIDE.md)
 
@@ -86,7 +88,7 @@ https://www.rocket.chat/download-apps
 
 Une fois l'application installer, lancer là et vous arrivez sur cette page :
 
-(screen5)
+![app_connect](Ressources/install_imgs/install_app_connect.png)
 
 Il vous suffis de renseigner le lien de votre serveur dans le champs disponible et cliquer sur 'Connect'
 
