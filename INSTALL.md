@@ -8,7 +8,7 @@
 
 # 1. Prérequis techniques
 <span id="prerequis-techniques"></span>
-- Une machine serveur basée sur Linux (Ubuntu, Debian, Fedora, etc ...)
+- Une machine serveur basée sur Linux (Ubuntu, Debian, Fedora, etc.)
 - Un processeur supportant AVX/AVX2 pour pouvoir lancer le service MongoDB qui est requis pour Rocket.Chat
 - Le service Snap installé (il est préinstallé sur la plupart des distributions Linux modernes. Sinon, reportez-vous au [guide d'installation de Snaps](https://snapcraft.io/docs/installing-snapd))
 # 2. Installation sur le serveur
