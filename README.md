@@ -145,7 +145,7 @@ Il a été choisi de refaire chacun de son côté les machines lorsque cela éta
 
 ### Personnalisation du serveur
 
-Pour personnaliser des conversations spécifiques, il est peut-être possible d'installer un module en passant par le Marketplace de Rocket.Chat. 
+Pour personnaliser des conversations spécifiques, il est possible d'installer un module en passant par le Marketplace de Rocket.Chat. 
 
 >Ce module n'a pas été trouvé à ce jour.
 
