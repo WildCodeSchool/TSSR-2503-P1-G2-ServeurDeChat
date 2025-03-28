@@ -104,6 +104,6 @@ Pour l'installation sur serveur, il est recommandé d'utiliser Debian pour garan
 
 Oui. Vous pouvez mettre à jour Rocket.Chat avec la commande `snap refresh rocketchat-server`.
 
-**Comment installer Rocket.Chat avec Docker ?**
+**Peut-on installer Rocket.Chat avec Docker ?**
 
 Oui. Pour cela, vous pouvez vous référer à la [documentation officielle](https://docs.rocket.chat/docs/deploy-with-docker-docker-compose) de Rocket.Chat.
