@@ -95,3 +95,15 @@ Il vous suffit de renseigner le lien de votre serveur dans le champs disponible 
 
 # 5. FAQ
 <span id="faq"></span>
+
+**Quel système d’exploitation est recommandé ?** 
+
+Pour l'installation sur serveur, il est recommandé d'utiliser Debian pour garantir la compatibilité avec la procédure que nous vous avons présentée. Cependant, il est possible d'installer Rocket.Chat serveur sur la majorité des distributions principales de Linux. L'application de chat est compatible avec tous les clients.
+
+**Peut-on mettre à jour Rocket.Chat ?** 
+
+Oui. Vous pouvez mettre à jour Rocket.Chat avec la commande `snap refresh rocketchat-server`.
+
+**Comment installer Rocket.Chat avec Docker ?**
+
+Oui. Pour cela, vous pouvez vous référer à la [documentation officielle](https://docs.rocket.chat/docs/deploy-with-docker-docker-compose) de Rocket.Chat.
